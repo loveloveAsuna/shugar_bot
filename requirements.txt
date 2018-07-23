@@ -4,6 +4,8 @@ get==1.0.3
 idna==2.7
 post==1.0.2
 public==1.0.3
+pyTelegramBotAPI==3.6.3
 query-string==1.0.2
 requests==2.19.1
+six==1.11.0
 urllib3==1.23
