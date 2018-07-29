@@ -151,4 +151,4 @@ if __name__ == '__main__':
     utilsss.count_rows()
     random.seed()
     bot.set_update_listener(handle_messages)
-    bot.polling(none_stop=True)
+    bot.polling(none_stop=False, interval=20, timeout=20)
