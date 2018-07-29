@@ -15,7 +15,7 @@ pyad==0.5.15
 pypiwin32==223
 pyTelegramBotAPI==3.6.3
 pytz==2018.5
-pywin32==223
+pywin32==219
 query-string==1.0.2
 requests==2.19.1
 six==1.11.0
