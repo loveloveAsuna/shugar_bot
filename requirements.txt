@@ -12,9 +12,9 @@ portend==2.3
 post==1.0.2
 public==1.0.3
 pypiwin32==223
-pywin32==223
 pyTelegramBotAPI==3.6.3
 pytz==2018.5
+pywin32==223
 query-string==1.0.2
 requests==2.19.1
 six==1.11.0
