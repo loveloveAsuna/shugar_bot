@@ -2,7 +2,6 @@ backports.functools-lru-cache==1.5
 certifi==2018.4.16
 chardet==3.0.4
 cheroot==6.3.3
-CherryPy==17.0.0
 future==0.16.0
 get==1.0.3
 idna==2.7
@@ -11,7 +10,6 @@ more-itertools==4.2.0
 portend==2.3
 post==1.0.2
 public==1.0.3
-pypiwin32==223
 pyTelegramBotAPI==3.6.3
 pytz==2018.5
 query-string==1.0.2
