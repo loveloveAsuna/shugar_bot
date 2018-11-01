@@ -87,8 +87,15 @@ def goose(message):
     file = random.randint(1, 21)
     photo = open('goose/' + str(file) + '.jpg', 'rb')
     bot.send_photo(message.chat.id, photo)
+    
 
+@bot.message_handler(commands=['knb'])
+def knb(message):
+    file = random.randint(1,3)
+    photo = open('knb/' + str(file) + '.png', 'rb')
+    bot.send_photo(message.chat.id, photo)
 
+    
 @bot.inline_handler(func=lambda query: len(query.query) > 0)
 def query_text(query):
     matches = re.match(pattern, query.query)  # find some pattern in query
